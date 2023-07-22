@@ -39,8 +39,8 @@ h1{
   letter-spacing:1px;
 }
 .go-home{
-  color:#ff3b3b;
-  background:#5892FF;
+  color:#ffffff;
+  background:#000000;
   border:none;
   padding:10px 50px;
   margin:30px 0;
@@ -50,7 +50,7 @@ h1{
 }
 .footer-like{
   margin-top: auto; 
-  background:#fe0fbe;
+  background:#ff3b3b;
   padding:6px;
   text-align:center;
 }
@@ -65,6 +65,11 @@ h1{
   text-decoration:none;
   color:#5892FF;
   font-weight:600;
+}
+
+button:hover{
+  transform: scale(1.25);
+  color:#5892FF;
 }
 
 @media (min-width:360px){
@@ -86,7 +91,7 @@ h1{
   max-width:720px;
   margin:0 auto;
   margin-top:150px;
-  box-shadow: 4px 8px 40px 8px rgba(2, 230, 255, 0.2);
+  box-shadow: 4px 8px 40px 8px #fe0fbe;
 }
   
 }
